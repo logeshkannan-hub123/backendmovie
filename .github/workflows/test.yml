@@ -10,4 +10,4 @@ jobs:
 
       - run: npm test
         env:
-          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          JWT_SECRET: test_jwt_secret_key
